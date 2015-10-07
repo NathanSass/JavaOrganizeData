@@ -3,7 +3,8 @@
  */
 
 package com.karaokeApp.model;
-import java.util.*; //should be more specific
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class SongBook {
