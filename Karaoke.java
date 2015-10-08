@@ -18,8 +18,11 @@ public class Karaoke {
 //        songBook.addSong(song);
 //        System.out.printf("There are %d songs. %n", songBook.getSongCount());
         SongBook songBook = new SongBook();
+        songBook.importFrom("songs.txt");
         KaraokeMachine machine = new KaraokeMachine(songBook);
         machine.run();
+        System.out.println("Saving book....");
+        songBook.exportTo("songs.txt");
 
     }
 }
