@@ -36,7 +36,6 @@ public class KaraokeMachine {
         mMenu.put("play", "play next some in queue");
         mMenu.put("choose", "Choose a song to sing");
         mMenu.put("quit", "Give up. Exit the program");
-
     }
 
     private String promptAction() throws IOException {
